@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignmnet4(JS Masterji)</title>
+    <link rel="stylesheet" href="assignment4.css">
+</head>
+
+<body>
+    <h1 style="text-align: center; font-size: 60px;letter-spacing: 3px;padding: 15px;">LIBRARY</h1>
+
+    <div class="main">
+        <input type="text" placeholder="Search here" id="search_box">
+        <div class="filter">
+            <span>Filter By:</span>
+            <!-- options for filtering by tite or author -->
+            <select name="" id="filterBy_options">
+                <option value="title">Title</option>
+                <option value="authors">Author</option>
+            </select>
+        </div>
+
+        <div class="view_type">
+            <span>View:</span>
+            <!-- options for filtering by tite or author -->
+            <select name="" id="viewing_options">
+                <option value="grid">Grid</option>
+                <option value="list">List</option>
+            </select>
+        </div>
+
+
+
+        <div class="sort">
+            <span>Sort By:</span>
+            <!-- options for sorting by tite or date -->
+            <select name="" id="sortByOptions">
+                <option value="default">Default</option>
+                <option value="title">Title</option>
+                <option value="published_date">Published date(Latest)</option>
+            </select>
+        </div>
+
+    </div>
+
+    <!-- This book container will conatin all the book divs -->
+    <div id="book_container">
+
+    </div>
+
+    <script src="assignment4.js"></script>
+</body>
+
+</html>
